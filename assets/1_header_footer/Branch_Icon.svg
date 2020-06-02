@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Branch Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-601.000000, -226.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Contact-Data">
+                <g transform="translate(119.000000, 213.000000)">
+                    <g id="Branch-col" transform="translate(482.852081, 0.000000)">
+                        <g id="Branch-Title">
+                            <g id="Branch-Icon" transform="translate(-0.000000, 13.000000)">
+                                <polygon id="Path" points="6.01062888 16 0 16 0 20 6.01062888 20"></polygon>
+                                <polygon id="Path" points="5.52150549 10 5.52150549 8.43472943 17.0301151 8.43472943 17.0301151 6 0 6 0 10"></polygon>
+                                <polygon id="Path" points="0 11 6.01062888 11 6.01062888 15 0 15"></polygon>
+                                <polygon id="Path" points="14.0248007 5 0 0 0 5"></polygon>
+                                <polygon id="Path" points="12.0212578 15 15.0265722 15 15.0265722 20 12.0212578 20"></polygon>
+                                <polygon id="Path" points="7.01240035 10 7.01240035 20 10.9457611 20 10.9457611 14.5425308 21.1109263 14.5425308 21.1109263 20 25.044287 20 25.044287 10"></polygon>
+                                <polygon id="Path" points="17.0301151 15 20.0354296 15 20.0354296 20 17.0301151 20"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

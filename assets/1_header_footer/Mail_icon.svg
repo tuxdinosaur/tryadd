@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="15px" viewBox="0 0 23 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Mail icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-850.000000, -229.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Contact-Data">
+                <g transform="translate(119.000000, 213.000000)">
+                    <g id="Newsletter-col" transform="translate(731.291408, 0.000000)">
+                        <g id="Newsletter-Ttitle">
+                            <g id="Mail-icon" transform="translate(0.000000, 16.000000)">
+                                <path d="M20.6615368,0 L1.37743578,0 C0.617091231,0 0,0.723017954 0,1.61387936 L0,2.53217672 L11.0194863,8 L22.0389725,2.53056284 L22.0389725,1.61387936 C22.0389725,0.723017954 21.4218813,0 20.6615368,0 Z" id="Path"></path>
+                                <path d="M11.2880862,8.96045536 C11.2026852,8.99281007 11.110397,9.00838826 11.0194863,9.00838826 C10.9285755,9.00838826 10.8362873,8.99281007 10.7508863,8.96045536 L0,5 L0,13.8016777 C0,14.4631516 0.617091231,15 1.37743578,15 L20.6615368,15 C21.4218813,15 22.0389725,14.4631516 22.0389725,13.8016777 L22.0389725,5 L11.2880862,8.96045536 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
