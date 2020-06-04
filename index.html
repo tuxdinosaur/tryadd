@@ -21,8 +21,8 @@
     <header class="header-top d-flex align-items-center">
       <img class="mr-4" src="./assets/1_header_footer/Tryad_Logo_color.svg" alt="">
       <div class="dropdown">
-        <button class="btn btn--blue dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn--blue btn__categoria dropdown-toggle d-none d-md-inline" type="button"
+          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Categoría
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -39,9 +39,6 @@
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg navbar-dark font-weight-bold">
-            <!-- <a class="navbar-brand" href="#">
-              ...
-            </a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
               aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -73,10 +70,12 @@
                   <a class="nav-link" href="#">Blog</a>
                 </li>
               </ul>
-              <span class="navbar-text">
+              <a href="#" class="navbar-text text-light bg--blue p-4 d-flex">
                 <img src="./assets/1_header_footer/callcenter.svg" alt="">
-                Contáctanos
-              </span>
+                <p class="m-0 ml-2">
+                  Contáctanos
+                </p>
+              </a>
             </div>
           </nav>
         </div>
@@ -332,7 +331,7 @@
 
   <div class="container my-3">
     <div class="row">
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 mb-3">
         <div class="card card__nuestras-marcas mb-3 bg--green text-light">
           <div class="card-body card-body__nuestras-marcas">
             <h5 class="card-title title__articulos">
@@ -340,13 +339,15 @@
             </h5>
           </div>
         </div>
-        <button type="button" class="btn btn--light-green px-4 font-weight-bold">
-          Ver todos
-        </button>
+        <div class="d-flex justify-content-end">
+          <button type="button" class="btn btn--light-green px-4 font-weight-bold">
+            Ver todos
+          </button>
+        </div>
       </div>
       <div class="col-12 col-md-9">
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <div class="card mb-3 flex-row">
               <div class="">
                 <img class="" src="./assets/4_nuestros_articulos/1_gaillinas.jpg" alt="...">
@@ -361,7 +362,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <div class="card mb-3 flex-row">
               <div class="">
                 <img class="" src="./assets/4_nuestros_articulos/2_cerdito.jpg" alt="...">
@@ -376,7 +377,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <div class="card mb-3 flex-row">
               <div class="">
                 <img class="" src="./assets/4_nuestros_articulos/3_vaquita.jpg" alt="...">
@@ -391,7 +392,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <div class="card mb-3 flex-row">
               <div class="">
                 <img class="" src="./assets/4_nuestros_articulos/4_muuu.jpg" alt="...">
@@ -413,16 +414,29 @@
 
   <div class="container-fluid container-contacto">
     <div class="container">
-      <div class="row">
-        <div class="col-12 py-5">
-          <div class="header__tag">
-            <p>Contacto</p>
+      <div class="row col__contacto pt-5">
+        <div class="col-12">
+          <div class="header__tag--contacto">
+            <p class="m-0">Contacto</p>
           </div>
-          <h5 class="py-4">
+          <h5 class="py-4 title__contacto">
             Contacta a nuestro <br />
-            <span>equipo de trabajo</span>
+            <span class="text--green">equipo de trabajo</span>
           </h5>
         </div>
+        <form class="d-flex flex-column p-5 form__contacto">
+          <div class="d-flex align-items-center mb-3">
+            <img class="mr-2" src="./assets/Tryadd Icon Green.svg" alt="">
+            <h5 class="font-weight-bold text--blue">Contactar asesor</h5>
+          </div>
+          <input class="mb-3" type="text" placeholder="Nombre">
+          <input class="mb-3" type="text" placeholder="Correo">
+          <input class="mb-3" type="text" placeholder="Teléfono">
+          <textarea class="mb-2" name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+          <button type="button" class="btn btn--gray px-4 font-weight-bold">
+            Enviar
+          </button>
+        </form>
       </div>
     </div>
   </div>
@@ -431,6 +445,7 @@
     <div class="container">
       <div class="row text-light row__ubicacion">
         <div class="col-12 col-md-6 col-lg-3">
+          <img class="mr-2" src="./assets/1_header_footer/Marker_icon.svg" alt="">
           Ubicación
           <ul class="ul__footer">
             <li>TRYADD SAPI DE CV/</li>
@@ -439,6 +454,7 @@
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
+          <img class="mr-2" src="./assets/1_header_footer/Phone_icon.svg" alt="">
           Teléfonos
           <ul class="ul__footer">
             <li>(442) 234 0310</li>
@@ -447,6 +463,7 @@
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
+          <img class="mr-2" src="./assets/1_header_footer/Branch_Icon.svg" alt="">
           Sucursales
           <ul class="ul__footer">
             <li>Querétaro, Qro.</li>
@@ -455,8 +472,9 @@
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
+          <img class="mr-2" src="./assets/1_header_footer/Mail_icon.svg" alt="">
           Newsletter
-          <input class="input__newsletter" type="text">
+          <input class="input__newsletter" type="email">
         </div>
       </div>
     </div>
