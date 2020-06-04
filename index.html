@@ -34,47 +34,55 @@
     </header>
   </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark navbar--green">
-    <a class="navbar-brand" href="#">
-      ...
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Marcas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Especies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Eventos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        <img src="./assets/1_header_footer/callcenter.svg" alt="">
-        Contáctanos
-      </span>
+  <div class="container-fluid navbar--green">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <!-- <a class="navbar-brand" href="#">
+              ...
+            </a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Marcas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Especies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <img src="./assets/1_header_footer/callcenter.svg" alt="">
+                Contáctanos
+              </span>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
-  </nav>
+  </div>
 
   <div class="container-fluid container-fluid__header">
     <div class="container">
@@ -302,49 +310,80 @@
             </h5>
           </div>
         </div>
+        <button type="button" class="btn btn--light-green px-4 font-weight-bold">
+          Conoce más
+        </button>
       </div>
 
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="bg--blue p-5 text-light">
+  <div class="container my-3">
+    <div class="row row__gallinas">
+      <div class="container__title__gallinas bg--blue text-light">
         <h5 class="title__productos">
-          PRODUCTOS RESPONSABLES
+          PRODUCTOS RESPONSABLES <br />
           <span class="text--green">CON EL MEDIO AMBIENTE</span>
         </h5>
       </div>
-      <img class="w-75" src="./assets/6_banner_productos_responsable/gallitos.jpg" alt="">
+      <img src="./assets/6_banner_productos_responsable/gallitos.jpg" alt="">
     </div>
   </div>
 
-  <div class="container">
+  <div class="container my-3">
     <div class="row">
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
         NUESTROS ARTÍCULOS
       </div>
-      <div class="col-12 col-md-4">
-        <div class="card">
-          <div class="card__img__container">
-            <img class="card-img-top card__img--marcas" src="./assets/5_marcas/fra.svg" alt="...">
+      <div class="col-12 col-md-9">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="card mb-3">
+              <div class="card__img__container">
+                <img class="card-img-top card__img--marcas" src="./assets/5_marcas/fra.svg" alt="...">
+              </div>
+              <div class="card-body pb-5">
+                <h5 class="card-title--marcas">
+                  FRA&reg;
+                </h5>
+              </div>
+            </div>
           </div>
-          <div class="card-body pb-5">
-            <h5 class="card-title--marcas">
-              FRA&reg;
-            </h5>
+          <div class="col-12 col-md-6">
+            <div class="card mb-3">
+              <div class="card__img__container">
+                <img class="card-img-top card__img--marcas" src="./assets/5_marcas/fra.svg" alt="...">
+              </div>
+              <div class="card-body pb-5">
+                <h5 class="card-title--marcas">
+                  FRA&reg;
+                </h5>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card">
-          <div class="card__img__container">
-            <img class="card-img-top card__img--marcas" src="./assets/5_marcas/fra.svg" alt="...">
+          <div class="col-12 col-md-6">
+            <div class="card mb-3">
+              <div class="card__img__container">
+                <img class="card-img-top card__img--marcas" src="./assets/5_marcas/fra.svg" alt="...">
+              </div>
+              <div class="card-body pb-5">
+                <h5 class="card-title--marcas">
+                  FRA&reg;
+                </h5>
+              </div>
+            </div>
           </div>
-          <div class="card-body pb-5">
-            <h5 class="card-title--marcas">
-              FRA&reg;
-            </h5>
+          <div class="col-12 col-md-6">
+            <div class="card mb-3">
+              <div class="card__img__container">
+                <img class="card-img-top card__img--marcas" src="./assets/5_marcas/fra.svg" alt="...">
+              </div>
+              <div class="card-body pb-5">
+                <h5 class="card-title--marcas">
+                  FRA&reg;
+                </h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -358,7 +397,7 @@
           <div class="header__tag">
             <p>Contacto</p>
           </div>
-          <h5>
+          <h5 class="py-4">
             Contacta a nuestro <br />
             <span>equipo de trabajo</span>
           </h5>
@@ -369,20 +408,18 @@
 
   <footer class="container-fluid bg--blue">
     <div class="container">
-      <div class="row text-light">
+      <div class="row text-light row__ubicacion">
         <div class="col-12 col-md-6 col-lg-3">
           Ubicación
-          <div>
-            <ul>
-              <li>TRYADD SAPI DE CV/</li>
-              <li>Circuito Álamos no.64 Int.2,</li>
-              <li>CP.76160, Querétaro, Qro</li>
-            </ul>
-          </div>
+          <ul class="ul__footer">
+            <li>TRYADD SAPI DE CV/</li>
+            <li>Circuito Álamos no.64 Int.2,</li>
+            <li>CP.76160, Querétaro, Qro</li>
+          </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           Teléfonos
-          <ul>
+          <ul class="ul__footer">
             <li>(442) 234 0310</li>
             <li>(442) 234 0868</li>
             <li>(442) 543 8970</li>
@@ -390,7 +427,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           Sucursales
-          <ul>
+          <ul class="ul__footer">
             <li>Querétaro, Qro.</li>
             <li>Edo. México</li>
             <li>República dominicana.</li>
@@ -398,7 +435,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           Newsletter
-          <input type="text">
+          <input class="input__newsletter" type="text">
         </div>
       </div>
     </div>

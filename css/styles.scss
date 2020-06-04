@@ -3,6 +3,10 @@ body {
   font-weight: 400;
 }
 
+li {
+  list-style: none;
+}
+
 .btn {
   border-radius: 0;
 }
@@ -216,6 +220,10 @@ ol li::before {
 
 // GALLINAS
 
+.container__title__gallinas {
+  padding: 50px 150px;
+}
+
 .title__productos {
   font-weight: 700;
   font-style: italic;
@@ -224,10 +232,38 @@ ol li::before {
   padding-left: 25px;
 }
 
+.row__gallinas {
+  position: relative;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.row__gallinas >img {
+  position: absolute;
+  height: 300px;
+  right: 0;
+}
+
 // CONTACTO
 
 .container-contacto {
   background: #EEEFF5;
+}
+
+// FOOTER 
+
+.ul__footer {
+  border-left: 2px solid #86B941;
+  margin: 25px 0;
+  padding-left: 25px;
+}
+
+.row__ubicacion {
+  padding: 150px 0 50px 0;
+}
+
+.input__newsletter {
+  margin-top: 25px;
 }
 
 // MEDIA QUERIES
