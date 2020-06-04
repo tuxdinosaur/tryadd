@@ -242,6 +242,16 @@ ol li::before {
   right: 0;
 }
 
+.title__articulos {
+  font-size: 24px;
+}
+
+.card-title--articulos {
+  font-weight: 700;
+  color: #001A83;
+  font-size: 18px;
+}
+
 .container-contacto {
   background: #EEEFF5;
 }
