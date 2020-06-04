@@ -24,6 +24,22 @@ body {
   color: #324799;
 }
 
+.bg--green {
+  background: #86B941;
+}
+
+.bg--blue {
+  background: #001A83;
+}
+
+.text--green {
+  color: #86B941;
+}
+
+.text--light-blue {
+  color: #555F86;
+}
+
 /* HEADER TOP */
 
 .header-top {
@@ -41,12 +57,14 @@ body {
 
 .container-fluid__header {
   background: #001A83;
+  background-image: url('../assets/Isotipo.svg');
+  background-repeat: no-repeat;
 }
 
 .header {
-  background: #001A83;
+  // background: #001A83;
   color: #FFFFFF;
-  padding: 15px;
+  padding: 50px 0;
 }
 
 .header > h1 {
@@ -79,11 +97,140 @@ body {
   font-size: 16px;
 }
 
+// DESCRIPTION
+
+.description--ol {
+  padding: 40px 20px;
+  background: #555F86;
+  font-weight: 600;
+}
+
+.card__body__description-header {
+  position: relative;
+  padding-top: 60px;
+}
+
+.square-tryadd--description {
+  display: inline-block;
+  padding: 10px 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-tryadd--description > img {
+  width: 75%;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  margin: 0;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: #86B941;
+  font-weight: bold;
+}
+
 // CONOCE
 
 .conoce__title {
-  color: #4C5EA7;
+  color: #001A83;
+  font-weight: 700;
 }
+
+.conoce__tryadd__image {
+  height: 60px;
+}
+
+.conoce__image__container {
+  position: relative;
+}
+
+.span-conoce {
+  font-weight: 700;
+}
+
+.square-tryadd {
+  display: inline-block;
+  padding: 20px 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.square-tryadd > img {
+  width: 80%;
+}
+
+// CARDS
+
+.card {
+  border-radius: 0;
+  border: 1px solid rgba(230, 230, 230,0.3);
+  box-shadow: 3px 3px 10px rgb(230, 230, 230);
+}
+
+.card__img__container {
+  background: #F9FAFC;
+  padding: 65px 25px;
+}
+
+.card__img--marcas {
+  height: 60px;
+}
+
+.card-title--marcas {
+  font-weight: 700;
+  color: #001A83;
+}
+
+.card__body__marca {
+  position: relative;
+}
+
+.etiqueta__marcas {
+  background: #86B941;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 5px 30px;
+  position: absolute;
+  top: -55px;
+  left: -20px;
+}
+
+.card-body__nuestras-marcas {
+  padding: 50px 20px;
+}
+
+.card-body__nuestras-marcas > h5 {
+    font-weight: 700;
+}
+
+// GALLINAS
+
+.title__productos {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  border-left: 5px solid #FFFFFF;
+  padding-left: 25px;
+}
+
+// CONTACTO
+
+.container-contacto {
+  background: #EEEFF5;
+}
+
+// MEDIA QUERIES
 
 @media only screen and (min-width: 767px) {
   .header > h1 {
@@ -91,7 +238,7 @@ body {
     font-size: 46px;
     border-left: 5px solid #86B941;
     padding-left: 25px;
-    margin: 25px 0;
+    margin: 75px 0 25px 0;
   }
 
   .header__description {
@@ -99,5 +246,13 @@ body {
     color: #D5D9EA;
     padding-left: 30px;
     font-size: 18px;
+  }
+  
+  // GALLINAS
+
+  .title__productos {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 32px;
   }
 }
